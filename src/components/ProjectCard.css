@@ -1,0 +1,37 @@
+.card-container {
+  margin-bottom: 10rem;
+}
+
+.card-container .fas,
+.card-container .fab {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.project-description {
+  box-shadow: var(--shadow);
+  padding: 1rem 1.5rem;
+  margin: 1rem -2rem 1rem -2rem;
+  z-index: 99;
+  background: var(--background);
+  position: relative;
+}
+
+.project-photo {
+  min-width: 300px;
+}
+
+.description-and-photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech-stack {
+  position: absolute;
+  bottom: 3rem;
+}
+
+.project-links {
+  position: absolute;
+  bottom: 1rem;
+}

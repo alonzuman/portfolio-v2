@@ -1,0 +1,30 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* box-shadow: var(--shadow); */
+  z-index: 999;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 1rem;
+}
+
+.nav-item {
+  padding-top: 0.6rem;
+}
+
+.menu button {
+  margin: 0;
+}
